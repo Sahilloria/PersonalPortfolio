@@ -9,7 +9,7 @@ import {
 
 } from "react-icons/di";
 import {
-  SiMaterialui,
+  // SiMaterialui,
   SiRedux,
   SiExpress,
   SiHtml5
@@ -40,9 +40,9 @@ const Techstack = () => {
       <Col xs={4} md={2} className="tech-icons">
         <SiRedux />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <SiMaterialui />
-      </Col>
+      </Col> */}
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>
