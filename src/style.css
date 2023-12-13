@@ -158,8 +158,9 @@ html {
   }
   
   .logo {
-    height: 2em !important;
+    height: 3em !important;
     width: 3.5em !important;
+    border-radius:50% ;
   }
   
   .navbar-nav .nav-link {

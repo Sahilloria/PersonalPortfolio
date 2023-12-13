@@ -4,14 +4,14 @@ import {
   DiJavascript1,
   DiReact,
   DiNodejs,
+  DiMysql,
   DiGit,
+
 } from "react-icons/di";
 import {
   SiMaterialui,
-  SiGraphql,
-  SiSolidity,
   SiRedux,
-  SiMongodb,
+  SiExpress,
   SiHtml5
 } from "react-icons/si";
 
@@ -25,22 +25,20 @@ const Techstack = () => {
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <DiNodejs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiExpress />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiMysql />
+      </Col>
+      
+      <Col xs={4} md={2} className="tech-icons">
         <SiRedux />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiGraphql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiMaterialui />

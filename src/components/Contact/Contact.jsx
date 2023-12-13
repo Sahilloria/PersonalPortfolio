@@ -23,19 +23,18 @@ const Contact = () => {
       setNotDone(true)
     } else {
       
-      //  Please use your own credentials from emailjs or i will recive your email
-      
     emailjs
       .sendForm(
-        "service_niilndo",
-        "template_6z5idye",
+        "service_2l7zjen",
+        "template_mi3dr4r",
         form.current,
-        "VOBt6Akm1LhI5CZG-"
+        "8jEwCngO7h5eZkI0y"
       )
       .then(
         (result) => {
           console.log(result.text);
           setDone(true);
+          setFormData("")
         },
         (error) => {
           console.log(error.text);

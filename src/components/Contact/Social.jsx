@@ -22,22 +22,12 @@ const Social = () => {
                 <ul className="contact-social-links">
                   <li className="contact-icons">
                     <a
-                      href="https://github.com/19sajib"
+                      href="https://github.com/Sahilloria"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-color  contact-social-icons"
                     >
                       <AiFillGithub />
-                    </a>
-                  </li>
-                  <li className="contact-icons">
-                    <a
-                      href="https://twitter.com/19sajib"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="icon-color  contact-social-icons"
-                    >
-                      <AiOutlineTwitter />
                     </a>
                   </li>
                   <li className="contact-icons">
@@ -48,16 +38,6 @@ const Social = () => {
                       className="icon-color  contact-social-icons"
                     >
                       <FaLinkedinIn />
-                    </a>
-                  </li>
-                  <li className="contact-icons">
-                    <a
-                      href="hhttps://leetcode.com/19sajib/"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="icon-color contact-social-icons"
-                    >
-                      <SiLeetcode />
                     </a>
                   </li>
                 </ul>
