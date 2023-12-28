@@ -7,6 +7,7 @@ import project from "../assets/projects/project.jpeg";
 import lift from "../assets/projects/lift.png";
 import krypto from "../assets/projects/krypto.png";
 import kickstart from "../assets/projects/kickstart.png";
+import todolist from "../assets/projects/todolist.png";
 
 const Projects = () => {
   return (
@@ -62,10 +63,10 @@ const Projects = () => {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={krypto}
+              imgPath={todolist}
               isBlog={false}
-              title="Project Krypto"
-              description="Project Krypto is a Web 3 project that utilizes an Ethereum smart contract created using Solidity. It allows users to interact with their Metamask wallet and send Ethereum."
+              title="ToDo List"
+              description="Developed ToDo app using React for the frontend, Node.js and Express.js for the backend, and MySQL for the database. The application seamlessly performs basic CRUD operations, allowing users to effortlessly create, read, update, and delete tasks. With a responsive and intuitive user interface, this ToDo app offers a seamless experience for efficient task management."
               ghLink="https://github.com/19sajib/Project-Krypto-Web-3.0"
               demoLink="https://project-krypto.netlify.app/"
             />
