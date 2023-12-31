@@ -11,20 +11,20 @@ import {
 const Toolstack = () => {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" title="VsCode">
         <SiVisualstudiocode />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
+      <Col xs={4} md={2} className="tech-icons" title="Postman">
+        <SiPostman title="Postman" />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiAndroid />
+      <Col xs={4} md={2} className="tech-icons" title="Android Studio">
+        <SiAndroid title="Android Studio"/>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNetlify />
+      <Col xs={4} md={2} className="tech-icons" title="Netlify">
+        <SiNetlify title="Netlify" />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiAmazonaws  />
+      <Col xs={4} md={2} className="tech-icons" title="AWS">
+        <SiAmazonaws title="AWS" />
       </Col>
     </Row>
   );

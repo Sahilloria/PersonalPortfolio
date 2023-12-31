@@ -18,33 +18,30 @@ import {
 const Techstack = () => {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiHtml5 />
+      <Col xs={4} md={2} className="tech-icons" title="HTML/CSS">
+        <SiHtml5 title="HTML/CSS"/>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+      <Col xs={4} md={2} className="tech-icons" title="JavaScript" >
+        <DiJavascript1 title="JavaScript" />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+      <Col xs={4} md={2} className="tech-icons" title="React">
+        <DiReact title="React"/>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+      <Col xs={4} md={2} className="tech-icons" title="Node.js">
+        <DiNodejs title="Node.js"/>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiExpress />
+      <Col xs={4} md={2} className="tech-icons" title="Express.js">
+        <SiExpress title="Express.js"/>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMysql />
+      <Col xs={4} md={2} className="tech-icons"  title="MySQL">
+        <DiMysql title="MySQL"/>
       </Col>
       
-      <Col xs={4} md={2} className="tech-icons">
-        <SiRedux />
+      <Col xs={4} md={2} className="tech-icons"  title="Redux">
+        <SiRedux  title="Redux"/>
       </Col>
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <SiMaterialui />
-      </Col> */}
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+      <Col xs={4} md={2} className="tech-icons" title="Git">
+        <DiGit title="Git"/>
       </Col>
     </Row>
   );
