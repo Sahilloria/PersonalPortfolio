@@ -46,5 +46,6 @@ const Techstack = () => {
     </Row>
   );
 }
+// "Gotham-Book",Arial,Helvetica,sans-serif;
 
 export default Techstack;
